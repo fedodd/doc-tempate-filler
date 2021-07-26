@@ -1,0 +1,33 @@
+{
+  "name": "doc-tempate-filler",
+  "version": "1.0.0",
+  "description": "doc template filler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedodd/doc-tempate-filler.git"
+  },
+  "keywords": [
+    "javasript",
+    "typescript"
+  ],
+  "author": "fedodd.s@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedodd/doc-tempate-filler/issues"
+  },
+  "homepage": "https://github.com/fedodd/doc-tempate-filler#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1"
+  },
+  "browserslist": "> 0.2%"
+}
